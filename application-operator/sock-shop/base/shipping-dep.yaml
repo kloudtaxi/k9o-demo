@@ -26,11 +26,11 @@ spec:
                 -XX:+UseG1GC -Djava.security.egd=file:/dev/urandom
           resources:
             limits:
-              cpu: 300m # default value cpu 300m
-              memory: 500Mi # default value memory 500Mi
+              cpu: 600m # default value cpu 300m
+              memory: 1000Mi # default value memory 500Mi
             requests:
-              cpu: 200m # default value cpu 300m
-              memory: 400Mi # default value memory 500Mi
+              cpu: 600m # default value cpu 300m
+              memory: 170Mi # default value memory 500Mi
           ports:
             - containerPort: 80
           securityContext:
