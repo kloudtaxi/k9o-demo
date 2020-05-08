@@ -1,0 +1,14 @@
+commonLabels:
+  app: k9o-hipster-shop-demo
+resources:
+  - ad-microservice.yml
+  - checkout-microservice.yml
+  - currency-microservice.yml
+  - email-microservice.yml
+  - frontend-microservice.yml
+  - payment-microservice.yml
+  - productcatalog-microservice.yml
+  - recommendation-microservice.yml
+  - redis-cart-microservice.yml
+  - shipping-microservice.yml
+  - shoppingcart-microservice.yml
