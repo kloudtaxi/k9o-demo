@@ -10,3 +10,4 @@ resources:
   - redis-cart-microservice.yml
   - shipping-microservice.yml
   - shoppingcart-microservice.yml
+  - jaeger-all-in-one.yml
