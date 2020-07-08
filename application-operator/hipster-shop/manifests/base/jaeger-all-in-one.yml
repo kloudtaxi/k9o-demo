@@ -14,6 +14,6 @@ spec:
       memory: # <7>
         max-traces: 100000
   ingress:
-    enabled: true # <8>
+    enabled: false # <8>
   annotations:
     scheduler.alpha.kubernetes.io/critical-pod: "" # <10>
