@@ -86,8 +86,9 @@ apiVersion: v1
 kind: Service
 metadata:
   name: frontend-external
-  annotations: # annotation to enable maesh service-mesh
-    maesh.containo.us/traffic-type: "http"
+  annotations:
+    # annotation to enable maesh service-mesh
+    # maesh.containo.us/traffic-type: "http"
 spec:
   type: LoadBalancer
   selector:
